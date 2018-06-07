@@ -19,6 +19,17 @@ html {
   right: 0;
   left: auto;
 }
+
+.dropdown-menu a {
+  color: #f2ddd6;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.dropdown-menu a:hover {
+  color: #add8e6; 
+}
+
 .jumbotron {
    height: 45rem;
    width: 100%;
@@ -35,13 +46,18 @@ button {
   width: 10rem;
 }
 
+#button_projects a{
+  color: white;
+  text-decoration: none;
+}
+
 #button_projects {
   background-color:#abd7d8;
   border: none;
   color: white;
   box-shadow: 0px 1px 1px 0px rgba(191, 209, 210, 0.79);
-  font-weight: 100;
-  font-family: "Heebo";
+  font-weight: 300;
+  font-family: "Raleway"; 
   background-image: linear-gradient(#67a9a9, #67a9a9), linear-gradient(#67a9a9, #bfd1d2);
   background-size: 0 5px, auto;
   background-repeat: no-repeat;
@@ -51,6 +67,10 @@ button {
 
 #button_projects:hover {
   background-size: 100% 3px, auto;
+}
+
+#button_projects a:hover {
+  color: #f2ddd6;
 }
 
 #background {
@@ -68,10 +88,9 @@ button {
 }
 
 .websitepage-header h1 {
+  color: #afdfe0;
   font-size: 2rem;
-  color: #000000;
-  margin-top: 4rem;
-  font-weight: light;
+  font-weight: 300;
 }
 
 
@@ -123,22 +142,11 @@ button {
 }
 
 /*  Design Page */
-
-.design-header h1 {
-  font-family: "raleway";
-  text-align: center;
-  color: black;
-  font-size: 2rem;
-  margin-bottom: 3rem;
-}
-
-/* control image height */
-.card-img-top-250 {
-    max-height: 250px;
-    overflow:hidden;
-}
-
 /*Websites Section*/
+
+button a {
+  color: white; 
+}
 
 .design {
   width: 45rem;
@@ -153,9 +161,11 @@ button {
 #web-section {
   margin-top: 5rem;
   margin-bottom: 8rem;
+  background-color: #fcf8f6;
 }
 
 #webcard_row {
+  margin-top: 2rem;
   margin-left: 2rem;
 }
 
@@ -246,8 +256,9 @@ footer a {
 }
 
 .designpage-header h1 {
-  color: #000000;
-  font-size: 3rem;
+  color: #afdfe0;
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 @media only screen and (max-width: 768px) {
@@ -263,3 +274,6 @@ footer a {
   }
 }
 
+.album {
+  background-color: #fcf8f6
+}
