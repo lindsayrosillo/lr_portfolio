@@ -17,8 +17,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+  crossorigin="anonymous">
   <!--Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700" rel="stylesheet">
 
@@ -44,30 +44,15 @@
 
     <div class="collapse navbar-collapse d-flex justify-content-between">
       <!-- Navbar Left -->
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Projects</a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Project 1</a>
-                <a class="dropdown-item" href="#">Project 2</a>
-                <a class="dropdown-item" href="#">Project 3</a>
-            </div>
-      </ul>
-    </div>
+      
       <!-- Navbar Right -->
-      <ul class="navbar-nav d-flex">
+      <ul class="navbar-nav ml-auto d-flex">
           <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Projects</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Project 1</a>
-              <a class="dropdown-item" href="#">Project 2</a>
-              <a class="dropdown-item" href="#">Project 3</a>
+              <a class="dropdown-item" href="websites.html">design</a>
+              <a class="dropdown-item" href="websites.html">responsive websites</a>
+              <a class="dropdown-item" href="mailto:lindsayrosillo@gmail.com">contact</a>
             </div>
         </li>
       </ul>
@@ -77,21 +62,50 @@
 <!--video section-->
 
 <div id="contents">
-  <div class="jumbotron d-flex flex-column align-items-center justify-content-center" id="main">
+  <div class="jumbotron d-flex flex-column align-items-center justify-content-center mb-0" id="main">
     <div class="d-flex justify-content-center" id="main_logo">
       <img src="./resources/images/lr-logo-white-transparent.png" alt="">
     </div>
-    <button type="button" name="button" class="btn btn-lg" id="button_projects"><a>projects</a></button>
+    <div> 
+    <button type="button" name="button" class="btn btn-lg" id="button_projects"><a href="design.html">design</a></button>
+    </div>  
   </div>
 </div>
 
 
-<footer class="row col-sm-12">
-  <ul>
-    <li>No 1</li>
-    <li>No 2</li>
-  </ul>
+<!--Footer-->
+
+<footer>
+  <div class="container">
+      <div class="d-flex justify-content-center">
+          <div class="col-s mt-5">
+              <ul class="d-flex flex-column align-items-sm-start">
+                  <li>
+                      <a href="mailto:lindsayrosillo@gmail.com" target="_blank">
+                              <i class="fas fa-comments fa-lg"></i> Contact</a>
+                  </li>
+                  <li>
+                    <a href="https://www.github.com/lindsayrosillo" target="_blank">
+                            <i class="fab fa-github-square fa-lg"></i> GitHub</a>
+                </li>
+                  <li>
+                      <a href="https://www.linkedin.com/in/lindsayrosillo" target="_blank">
+                              <i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
+                  </li>
+                  <li>
+                      <a href="https://www.instagram.com/ed_rosillo" target="_blank">
+                              <i class="fab fa-instagram fa-lg"></i> Instagram</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      </div>
+      <div class="d-flex col-sm-12 mt-2">
+          <p>&copy;Lindsay Rosillo 2018</p>
+      </div>
+      </div>
 </footer>
+
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 
